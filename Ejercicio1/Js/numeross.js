@@ -27,3 +27,17 @@ function newTable(){
 function reinicia(){
     location.reload();
 }
+
+//intento sacar mayor menor
+/*for (int x=0;x<matriz.length;x++) {
+    for (int y=0;y<matriz[x].length;y++) {
+      if (matriz[x][y] > numeroMayor) {
+        numeroMayor = matriz[x][y];
+        mayorPosicion = x + "," + y;
+      }
+      if (matriz[x][y] < numeroMenor) {
+        numeroMenor = matriz[x][y];
+        menorPosicion = x + "," + y;
+      }
+    }                
+  }*/
