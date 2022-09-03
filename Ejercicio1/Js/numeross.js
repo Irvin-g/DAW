@@ -1,7 +1,7 @@
 window.addEventListener('load',inicio,false);
 function inicio(){
     enviar.addEventListener('click',newTable);
-    editarT.addEventListener('click',nuevoTex);
+    reiniciar.addEventListener('click',reinicia);
 }
 var cont="";
 function newTable(){
@@ -16,11 +16,14 @@ function newTable(){
             cont+="<td id="+j+i+">" 
             cont+= random();
             cont+="</td>";
-            
         }    
         cont+="</tr>";
     }
 
     cont+="</table>";
     tabla.innerHTML= cont;
+}
+
+function reinicia(){
+    location.reload();
 }

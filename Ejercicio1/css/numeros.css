@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 table{
     margin: 60px auto;
     background: #a1aeda;
@@ -12,3 +15,9 @@ table td{
     border: 1px solid rgb(121, 112, 112);
     padding: 10px;
 }
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
