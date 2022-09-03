@@ -8,6 +8,8 @@
     left: 27%;
 }
 #respuestas{
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     background-color: darkcyan;
     text-align: center;
 }
