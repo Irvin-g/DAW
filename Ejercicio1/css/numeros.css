@@ -1,0 +1,14 @@
+table{
+    margin: 60px auto;
+    background: #a1aeda;
+    font-size: 13pt;
+    border-collapse: collapse;
+}
+table th{
+    padding: 10px;
+    color: white;
+}
+table td{
+    border: 1px solid rgb(121, 112, 112);
+    padding: 10px;
+}

@@ -1,0 +1,13 @@
+#libro{
+    left: 29%;
+}
+#cuaderno{
+    left: 21%;
+}
+#plumas{
+    left: 27%;
+}
+#respuestas{
+    background-color: darkcyan;
+    text-align: center;
+}
